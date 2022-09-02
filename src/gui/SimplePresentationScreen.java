@@ -46,7 +46,7 @@ public class SimplePresentationScreen extends JFrame {
 		contentPane.setBackground(new Color(216, 191, 216));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		
-		setTitle("TdP-DCIC-UNS 2021 :: Pantal6a de presentacion");
+		setTitle("TdP-DCIC-UNS 2021 :: Pantalla de presentacion");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(new Dimension(668, 361));
 		setResizable(false);
@@ -66,7 +66,7 @@ public class SimplePresentationScreen extends JFrame {
 		tabInformation = new JPanel();
 		tabInformation.setBackground(new Color(230, 230, 250));
 		tabInformation.setPreferredSize(new Dimension(425, 275));
-		tabbedPane.addTab("Información del alumno", null, tabInformation, "Muestra la informacion declarada por el alumno");
+		tabbedPane.addTab("Informacion del alumno", null, tabInformation, "Muestra la informacion declarada por el alumno");
 		tabInformation.setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("LU :");
