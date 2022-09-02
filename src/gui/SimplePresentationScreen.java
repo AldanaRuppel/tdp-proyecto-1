@@ -46,7 +46,7 @@ public class SimplePresentationScreen extends JFrame {
 		contentPane.setBackground(new Color(216, 191, 216));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		
-		setTitle("TdP-DCIC-UNS 2021 :: Pantalla de presentacion");
+		setTitle("TdP-DCIC-UNS 2022 :: Pantalla de presentacion");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(new Dimension(668, 361));
 		setResizable(false);
